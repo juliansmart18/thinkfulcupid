@@ -1,0 +1,267 @@
+/* -------  General Styles ------- */
+
+body {
+  font-family: "Lato", sans-serif;
+  color: #6b1a22;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0 10px 15px 10px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+p {
+  line-height: 1.5em;
+  margin: 0;
+}
+
+section {
+  padding: 50px;
+}
+
+#join {
+  padding-top: 20px;
+}
+
+#about {
+  padding-top: 20px;
+}
+
+#download {
+  padding-top: 20px;
+}
+
+#blog {
+  padding-top: 20px;
+}
+
+section.alternate-background {
+  background-color: #a35766;
+  color: #ecdbc9;
+}
+
+main img {
+  width: 100%;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+/* ---  Groups & Items --- */
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+}
+
+.item-double {
+  flex: 2;
+}
+
+/* -------  Navigation ------- */
+
+header {
+  background-color: #83092e;
+  padding: 20px 20px 0 20px;
+  text-align: center;
+}
+
+.logo {
+  font-family: "Tangerine", cursive;
+  font-size: 72px;
+  color: #ecdbc9;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  color: #ecdbc9;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+}
+
+header nav ul li a:hover {
+  color: #bdbdbd;
+  text-decoration: none;
+}
+
+/* -------  Join Form ------- */
+form {
+  border: 2px solid #6b1a22;
+  padding: 10px;
+}
+
+form label {
+  font-weight: bold;
+}
+
+form select,
+form input {
+  margin-bottom: 20px;
+  width: 180px;
+}
+
+form button {
+  background-color: #83092e;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  padding: 15px;
+  width: 100%;
+}
+
+/* -------  Footer ------- */
+
+footer {
+  background-color: #83092e;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* New Code */
+
+#menu {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+}
+
+form div {
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* ----- Media query for smallest screen ----- */
+
+@media all and (max-width: 400px) {
+  .logo {
+    font-size: 54px;
+  }
+}
+
+/* -------  Media Query ------- */
+
+@media all and (min-width: 768px) {
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px 0 10px;
+}
+
+.logo {
+  font-size: 40px;
+}
+
+#join {
+  display: flex;
+  align-items: center;
+  padding: 30px;
+  gap: 20px;
+}
+
+#join-img {
+  flex: 2;
+}
+
+#join-form {
+  flex: 1;
+}
+
+#about {
+  padding: 30px;
+}
+
+#about h2 {
+  padding-bottom: 10px;
+}
+
+#about img {
+  margin: 0;
+}
+
+#about_flex {
+  display: flex;
+  gap: 20px;
+}
+
+.about_item {
+  flex: 1;
+}
+
+#about_text {
+  flex: 2;
+}
+
+#download {
+  display: flex;
+  gap: 20px;
+  padding: 30px;
+  align-items: center;
+}
+
+#download div img {
+  margin-top: 0;
+  margin-bottom: 0px;
+}
+
+#download div {
+  flex: 1;
+}
+
+#blog {
+  padding: 30px;
+}
+
+#blog h2 {
+  padding-bottom: 10px;
+}
+
+#blog img {
+  margin: 0;
+}
+
+#blog_flex {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+#blog_top {
+  display: flex;
+  gap: 20px;
+}
+
+#blog_top_left {
+  flex: 1;
+}
+
+#blog_top_right {
+  flex: 1;
+}
+
+#blog_bottom {
+  display: flex;
+  gap: 20px;
+}
+
+}
